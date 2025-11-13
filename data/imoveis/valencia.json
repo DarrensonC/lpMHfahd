@@ -1,0 +1,204 @@
+{
+  "slug": "valencia",
+  "meta": {
+    "title": "Casa de Alto Padrão - Condomínio Valencia | M.H.FAHD Imobiliária",
+    "description": "Exclusividade, segurança e design contemporâneo em uma das regiões mais valorizadas de Curitiba. Agende sua visita!",
+    "ogImage": "/images/hero.png"
+  },
+  "hero": {
+    "badge": "✨ CONSTRUÍDA EM 2023 - PRONTA PARA MORAR",
+    "title": "Casa de Alto Padrão no Condomínio Valencia",
+    "subtitle": "Exclusividade, segurança e design contemporâneo em uma das regiões mais valorizadas da cidade.",
+    "location": "Campo Comprido, Curitiba",
+    "image": "/images/hero.png",
+    "price": {
+      "sale": "R$ 3.969.000",
+      "condominium": "R$ 1.200",
+      "type": "Venda"
+    },
+    "capsules": [
+      { "icon": "bed", "label": "4 suítes" },
+      { "icon": "maximize", "label": "707 m²" },
+      { "icon": "home", "label": "350 m² útil" },
+      { "icon": "waves", "label": "Piscina" },
+      { "icon": "utensils", "label": "Gourmet" },
+      { "icon": "shield", "label": "Segurança" }
+    ],
+    "cta": {
+      "primary": "🏠 Agendar Visita Presencial"
+    }
+  },
+  "highlights": [
+    {
+      "icon": "sparkles",
+      "title": "Acabamentos de alto padrão",
+      "description": "Materiais nobres e acabamentos premium em todos os ambientes"
+    },
+    {
+      "icon": "waves",
+      "title": "Piscina privativa",
+      "description": "Área de lazer completa com piscina aquecida"
+    },
+    {
+      "icon": "utensils",
+      "title": "Área gourmet",
+      "description": "Espaço completo para receber amigos e família"
+    },
+    {
+      "icon": "layout",
+      "title": "Mezanino",
+      "description": "Ambiente sofisticado e versátil"
+    },
+    {
+      "icon": "bed",
+      "title": "4 suítes amplas",
+      "description": "Privacidade e conforto para toda a família"
+    },
+    {
+      "icon": "home",
+      "title": "Arquitetura moderna",
+      "description": "Design contemporâneo e elegante"
+    }
+  ],
+  "description": {
+    "title": "Sobre o Imóvel",
+    "paragraphs": [
+      "Apresentamos esta magnífica casa em condomínio, localizada no bairro de Campo Comprido, em Curitiba. Construída em 2023, esta propriedade de 707m² de área total e 350m² de área útil, oferece um estilo de vida sofisticado e privilegiado.",
+      "Com 4 suítes e 6 banheiros, esta casa proporciona amplo espaço e privacidade para toda a família. As duas salas de estar e jantar, com acabamentos de alto padrão, criam um ambiente acolhedor e elegante.",
+      "O imóvel, que está mobiliado, possui ainda churrasqueira, área gourmet, piscina, mezanino, closet, hidromassagem e demais comodidades que contribuem para um cotidiano confortável e luxuoso.",
+      "Localizada no Condomínio Residencial Valencia, referência em segurança e infraestrutura, esta casa é o equilíbrio perfeito entre privacidade, conforto e acesso rápido às principais regiões da cidade."
+    ],
+    "specs": [
+      { "value": "707m²", "label": "Área Total" },
+      { "value": "350m²", "label": "Área Útil" },
+      { "value": "4", "label": "Suítes" },
+      { "value": "2023", "label": "✨ Novo", "highlight": true }
+    ]
+  },
+  "gallery": {
+    "title": "Galeria de Fotos",
+    "subtitle": "Conheça cada detalhe deste imóvel excepcional",
+    "instruction": "📸 Toque nas fotos para ampliar",
+    "images": [
+      { "src": "/images/gallery/01.png", "alt": "Fachada da casa", "span": "md:col-span-2 md:row-span-2" },
+      { "src": "/images/gallery/02.png", "alt": "Sala de estar", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/03.png", "alt": "Cozinha gourmet", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/04.png", "alt": "Suíte master", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/06.png", "alt": "Banheiro", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/07.png", "alt": "Área gourmet", "span": "md:col-span-2 md:row-span-1" },
+      { "src": "/images/gallery/08.png", "alt": "Piscina", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/09.png", "alt": "Mezanino", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/10.png", "alt": "Closet", "span": "md:col-span-2 md:row-span-1" },
+      { "src": "/images/gallery/11.png", "alt": "Vista externa", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/12.png", "alt": "Área de lazer", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/gallery/13.png", "alt": "Varanda", "span": "md:col-span-1 md:row-span-1" }
+    ]
+  },
+  "location": {
+    "title": "Localização",
+    "subtitle": "Campo Comprido - Curitiba/PR",
+    "description": "Localizada no coração do Campo Comprido, próximo a mercados, escolas, restaurantes, parques e com fácil acesso às principais vias da cidade.",
+    "address": "Rua Íris Antônio Campos, 233\nCampo Comprido – Curitiba/PR",
+    "highlights": [
+      "Fácil acesso à BR-277 e Rodovia do Xisto",
+      "Próximo a shoppings, supermercados e academias",
+      "Região valorizada e em constante crescimento",
+      "Excelente infraestrutura urbana"
+    ],
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4756789!2d-49.3123!3d-25.4567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI3JzI0LjEiUyA0OcKwMTgnNDQuMyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+  },
+  "amenities": {
+    "title": "Comodidades",
+    "subtitle": "Tudo que você precisa para viver com conforto e elegância",
+    "property": [
+      "Ar-Condicionado",
+      "Sala",
+      "Alarme",
+      "Laje Técnica",
+      "Cozinha",
+      "Sala de Jantar",
+      "Closet",
+      "Quarto de Serviço",
+      "Aquecimento a Gás",
+      "Aceita Pet",
+      "Gourmet",
+      "Churrasqueira",
+      "Hidromassagem",
+      "Armário no Escritório",
+      "Armário Suíte",
+      "Armário no Quarto",
+      "Despensa",
+      "Sala de estar",
+      "Armário na Área de Serviço",
+      "Salão Vídeo Cinema",
+      "Armário Banheiro",
+      "Porcelanato",
+      "Adega",
+      "Decorado",
+      "Mezanino",
+      "Piscina",
+      "Armário Dormitório Empregada",
+      "Copa",
+      "Sacada",
+      "Lavanderia",
+      "Armário Cozinha",
+      "Varanda"
+    ],
+    "condominium": [
+      "Portão Eletrônico",
+      "Guarita com Segurança",
+      "Áreas de convivência",
+      "Ruas internas pavimentadas"
+    ],
+    "condominiumHighlight": {
+      "title": "🛡️ Condomínio Residencial Valencia",
+      "description": "Referência em segurança e infraestrutura, o Condomínio Valencia oferece o equilíbrio perfeito entre privacidade, conforto e tranquilidade para sua família."
+    }
+  },
+  "video": {
+    "title": "Vídeo Tour",
+    "subtitle": "Assista ao vídeo e conheça cada detalhe",
+    "platform": "panda",
+    "videoId": "42c00b6b-8035-47fa-8f09-c9b6afdbce6e",
+    "embedUrl": "https://player-vz-e29bdd42-f4e.tv.pandavideo.com.br/embed/?v=42c00b6b-8035-47fa-8f09-c9b6afdbce6e"
+  },
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "items": [
+      {
+        "name": "Maria Silva",
+        "role": "Cliente",
+        "text": "A M.H.FAHD me ajudou a encontrar a casa dos meus sonhos. Profissionalismo e atenção em cada detalhe."
+      },
+      {
+        "name": "João Santos",
+        "role": "Cliente",
+        "text": "Equipe excepcional! Desde a primeira visita até a entrega das chaves, tudo perfeito. Recomendo!"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre a M.H.FAHD",
+    "image": "/images/800 por 500.png",
+    "paragraphs": [
+      "A M.H.FAHD Imobiliária nasceu em 2009, fruto do sonho de uma família que iniciou no ramo da construção com o propósito de criar espaços que transformam vidas.",
+      "Com mais de uma década de experiência no setor, expandimos nossa atuação para a compra, venda e locação de imóveis residenciais e comerciais, sempre mantendo o compromisso com a qualidade, transparência e atendimento personalizado.",
+      "Hoje, somos uma imobiliária especializada que une tradição e inovação para oferecer soluções completas no mercado imobiliário.",
+      "Se você procura um imóvel para morar, investir ou alugar, pode contar com a M.H.FAHD para encontrar a melhor oportunidade — com segurança, confiança e o cuidado de quem entende do assunto."
+    ],
+    "stats": [
+      { "value": "15+", "label": "Anos de Experiência" },
+      { "value": "500+", "label": "Imóveis Vendidos" },
+      { "value": "100%", "label": "Satisfação" }
+    ]
+  },
+  "contact": {
+    "title": "Agende Sua Visita",
+    "subtitle": "Preencha o formulário e nossa equipe entrará em contato",
+    "trustBadge": "✓ Atendimento Rápido e Personalizado",
+    "whatsapp": "5541987134444",
+    "formTitle": "Nova Solicitação de Visita - Casa Valencia",
+    "submitButton": "🏠 Quero Agendar Minha Visita"
+  }
+}
+

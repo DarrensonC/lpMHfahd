@@ -1,0 +1,188 @@
+{
+  "slug": "locacao",
+  "meta": {
+    "title": "Ponto Comercial 680m² - Portão/Curitiba | Locação | M.H.FAHD",
+    "description": "Ponto comercial premium no Portão: 680m², alta visibilidade, fluxo intenso. Disponível agora! Agende sua visita.",
+    "ogImage": "/images/locacao/gallery/1.png"
+  },
+  "hero": {
+    "badge": "🔥 PONTO COMERCIAL ESTRATÉGICO - DISPONÍVEL AGORA",
+    "title": "680m² de Oportunidade no Coração do Portão",
+    "subtitle": "Alta visibilidade, fluxo intenso e localização privilegiada. O ponto que seu negócio precisa para crescer.",
+    "location": "Portão, Curitiba",
+    "image": "/images/locacao/gallery/1.png",
+    "price": {
+      "sale": "R$ 39.990",
+      "condominium": "R$ 1.100",
+      "condominiumLabel": "IPTU mensal",
+      "type": "Locação"
+    },
+    "capsules": [
+      { "icon": "maximize", "label": "680 m²" },
+      { "icon": "home", "label": "6 banheiros" },
+      { "icon": "bed", "label": "Sem vagas" },
+      { "icon": "waves", "label": "Desocupado" },
+      { "icon": "utensils", "label": "Alto fluxo" },
+      { "icon": "shield", "label": "Versátil" }
+    ],
+    "cta": {
+      "primary": "🏢 Agendar Visita e Garantir Este Ponto"
+    }
+  },
+  "highlights": [
+    {
+      "icon": "sparkles",
+      "title": "Visibilidade Premium",
+      "description": "Fachada ampla em via de alto tráfego - milhares de pessoas/dia"
+    },
+    {
+      "icon": "waves",
+      "title": "Fluxo Intenso Garantido",
+      "description": "Região comercial consolidada com movimento constante"
+    },
+    {
+      "icon": "utensils",
+      "title": "680m² Versáteis",
+      "description": "Espaço amplo para qualquer tipo de negócio"
+    },
+    {
+      "icon": "layout",
+      "title": "Layout Flexível",
+      "description": "Adapte 100% às necessidades do seu empreendimento"
+    },
+    {
+      "icon": "bed",
+      "title": "Localização TOP",
+      "description": "Região valorizada com toda infraestrutura"
+    },
+    {
+      "icon": "home",
+      "title": "Disponibilidade Imediata",
+      "description": "Comece a operar em poucos dias"
+    }
+  ],
+  "description": {
+    "title": "Por Que Este é o Ponto Ideal Para Seu Negócio",
+    "paragraphs": [
+      "Este é O ponto comercial que você estava procurando: 680m² de área útil em uma das localizações mais estratégicas do Portão. Pronto para receber seu negócio com disponibilidade imediata.",
+      "A localização é o grande diferencial: fachada ampla em via de alto tráfego, com milhares de pessoas circulando diariamente. Ideal para lojas de varejo, showrooms, academias, clínicas, escritórios, espaços de coworking, restaurantes e qualquer negócio que precise de visibilidade e movimento.",
+      "O espaço oferece total versatilidade: planta livre que permite criar o layout perfeito para seu empreendimento, 6 banheiros já instalados, ótimo pé-direito e excelente infraestrutura. A região conta com comércio consolidado, transporte público na porta e fácil acesso para clientes e funcionários.",
+      "Esta é uma oportunidade de posicionar seu negócio em um dos endereços mais valorizados do Portão. Agende sua visita agora e garanta este ponto antes que outro empresário o faça."
+    ],
+    "specs": [
+      { "value": "680m²", "label": "Área Útil" },
+      { "value": "6", "label": "Banheiros" },
+      { "value": "Sem vagas", "label": "Garagem" },
+      { "value": "Imediata", "label": "✨ Disponível", "highlight": true }
+    ]
+  },
+  "gallery": {
+    "title": "Galeria de Fotos",
+    "subtitle": "Conheça cada detalhe deste ponto comercial",
+    "instruction": "📸 Toque nas fotos para ampliar",
+    "images": [
+      { "src": "/images/locacao/gallery/1.png", "alt": "Fachada do ponto comercial", "span": "md:col-span-2 md:row-span-2" },
+      { "src": "/images/locacao/gallery/2.png", "alt": "Visão externa", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/3.png", "alt": "Interior amplo", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/4.png", "alt": "Espaço interno", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/5.png", "alt": "Vista do salão", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/6.png", "alt": "Área comercial", "span": "md:col-span-2 md:row-span-1" },
+      { "src": "/images/locacao/gallery/7.png", "alt": "Infraestrutura", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/8.png", "alt": "Outro ângulo", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/9.png", "alt": "Detalhe interno", "span": "md:col-span-1 md:row-span-1" },
+      { "src": "/images/locacao/gallery/10 (1).png", "alt": "Vista completa", "span": "md:col-span-1 md:row-span-1" }
+    ]
+  },
+  "location": {
+    "title": "Localização Estratégica",
+    "subtitle": "Portão - Curitiba/PR",
+    "description": "Localização privilegiada em uma das regiões comerciais mais valorizadas de Curitiba. Alto fluxo de pessoas, excelente visibilidade e acesso facilitado.",
+    "address": "Rua Carlos Dietzsch, 46\nPortão – Curitiba/PR",
+    "highlights": [
+      "Via de alto tráfego no Portão",
+      "Fachada ampla com visibilidade 360°",
+      "Milhares de pessoas circulando diariamente",
+      "Transporte público e fácil acesso de carro"
+    ],
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4756789!2d-49.3123!3d-25.4567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI3JzI0LjEiUyA0OcKwMTgnNDQuMyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+  },
+  "amenities": {
+    "title": "Comodidades",
+    "subtitle": "Tudo que seu negócio precisa em um só lugar",
+    "property": [
+      "680 m² de área útil",
+      "6 banheiros",
+      "Planta ampla e versátil",
+      "Layout adaptável",
+      "Espaço bem distribuído",
+      "Pé-direito alto",
+      "Boa iluminação natural",
+      "Instalações elétricas adequadas",
+      "Infraestrutura de água/esgoto",
+      "Fácil acesso para carga/descarga",
+      "Desocupado",
+      "Pronto para uso",
+      "Possibilidade de adaptações",
+      "Ideal para diversos segmentos",
+      "Localização comercial estratégica"
+    ],
+    "condominium": [
+      "Excelente visibilidade",
+      "Alto fluxo de pessoas",
+      "Comércio diversificado na região",
+      "Transporte público acessível",
+      "Estacionamento na rua",
+      "Infraestrutura completa"
+    ],
+    "condominiumHighlight": {
+      "title": "🏆 Ponto Comercial Premium no Portão",
+      "description": "Localização que vende por si só. Perfeito para varejos, clínicas, academias, escritórios, coworkings, restaurantes e qualquer negócio que precisa de visibilidade e movimento."
+    }
+  },
+  "video": {
+    "title": "Vídeo Tour",
+    "subtitle": "Assista ao vídeo e conheça cada detalhe",
+    "platform": "panda",
+    "videoId": "b98cd216-bed5-4c0b-8ed0-d7ec6c44a1cd",
+    "embedUrl": "https://player-vz-e29bdd42-f4e.tv.pandavideo.com.br/embed/?v=b98cd216-bed5-4c0b-8ed0-d7ec6c44a1cd"
+  },
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "items": [
+      {
+        "name": "Carlos Mendes",
+        "role": "Empresário",
+        "text": "Aluguei minha loja com a M.H.FAHD e foi uma experiência excelente. Processo rápido, transparente e equipe muito profissional!"
+      },
+      {
+        "name": "Patricia Silva",
+        "role": "Proprietária",
+        "text": "Consegui alugar meu ponto comercial em tempo recorde com a M.H.FAHD. Super recomendo para quem busca agilidade e segurança!"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre a M.H.FAHD",
+    "image": "/images/800 por 500.png",
+    "paragraphs": [
+      "A M.H.FAHD Imobiliária nasceu em 2009, fruto do sonho de uma família que iniciou no ramo da construção com o propósito de criar espaços que transformam vidas.",
+      "Com mais de uma década de experiência no setor, expandimos nossa atuação para a compra, venda e locação de imóveis residenciais e comerciais, sempre mantendo o compromisso com a qualidade, transparência e atendimento personalizado.",
+      "Hoje, somos uma imobiliária especializada que une tradição e inovação para oferecer soluções completas no mercado imobiliário.",
+      "Se você procura um imóvel para morar, investir ou alugar, pode contar com a M.H.FAHD para encontrar a melhor oportunidade — com segurança, confiança e o cuidado de quem entende do assunto."
+    ],
+    "stats": [
+      { "value": "15+", "label": "Anos de Experiência" },
+      { "value": "500+", "label": "Imóveis Vendidos" },
+      { "value": "100%", "label": "Satisfação" }
+    ]
+  },
+  "contact": {
+    "title": "Garanta Este Ponto Agora",
+    "subtitle": "Preencha o formulário e agende sua visita com urgência",
+    "trustBadge": "✓ Atendimento Imediato - Disponibilidade Limitada",
+    "whatsapp": "5541987134444",
+    "formTitle": "Nova Solicitação - Ponto Comercial 680m² Portão",
+    "submitButton": "🏢 Agendar Visita Urgente"
+  }
+}
+
