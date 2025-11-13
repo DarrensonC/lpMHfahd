@@ -1,0 +1,12 @@
+# Arquivos de documentação (não precisa fazer deploy deles)
+*.md
+!README.md
+
+# Scripts de setup
+criar-pastas.bat
+criar-pastas.sh
+
+# Arquivos temporários
+.DS_Store
+*.log
+
