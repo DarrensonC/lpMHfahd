@@ -1,4 +1,4 @@
-import fs from 'fs'
+import { promises as fs } from 'fs'
 import path from 'path'
 
 export interface PropertyData {
@@ -20,29 +20,28 @@ export interface PropertyData {
   contact: any
 }
 
-export function getPropertyData(slug: string): PropertyData {
-  const filePath = path.join(process.cwd(), 'data', 'imoveis', `${slug}.json`)
-  
-  if (!fs.existsSync(filePath)) {
+export async function getPropertyData(slug: string): Promise<PropertyData> {
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'imoveis', `${slug}.json`)
+    const fileContents = await fs.readFile(filePath, 'utf8')
+    const data = JSON.parse(fileContents)
+    return data
+  } catch (error) {
+    console.error(`Error reading property data for slug: ${slug}`, error)
     throw new Error(`Property data not found for slug: ${slug}`)
   }
-  
-  const fileContents = fs.readFileSync(filePath, 'utf8')
-  const data = JSON.parse(fileContents)
-  
-  return data
 }
 
-export function getAllPropertySlugs(): string[] {
-  const dataDir = path.join(process.cwd(), 'data', 'imoveis')
-  
-  if (!fs.existsSync(dataDir)) {
+export async function getAllPropertySlugs(): Promise<string[]> {
+  try {
+    const dataDir = path.join(process.cwd(), 'data', 'imoveis')
+    const files = await fs.readdir(dataDir)
+    return files
+      .filter(file => file.endsWith('.json'))
+      .map(file => file.replace('.json', ''))
+  } catch (error) {
+    console.error('Error reading property slugs:', error)
     return []
   }
-  
-  const files = fs.readdirSync(dataDir)
-  return files
-    .filter(file => file.endsWith('.json'))
-    .map(file => file.replace('.json', ''))
 }
 

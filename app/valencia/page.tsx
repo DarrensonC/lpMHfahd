@@ -5,7 +5,7 @@ import PropertyPage from '@/components/PropertyPage'
 const slug = 'valencia'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const data = getPropertyData(slug)
+  const data = await getPropertyData(slug)
   
   return {
     title: data.meta.title,
@@ -29,8 +29,8 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function ValenciaPage() {
-  const data = getPropertyData(slug)
+export default async function ValenciaPage() {
+  const data = await getPropertyData(slug)
   return <PropertyPage data={data} />
 }
 

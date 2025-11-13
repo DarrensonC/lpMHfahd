@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://www.mhfahdimoveis.com.br'),
   title: 'Casa de Alto Padrão - Condomínio Valencia | M.H.FAHD Imobiliária',
   description: 'Casa de alto padrão com 4 suítes, 707m² total, piscina e área gourmet no Condomínio Valencia, Campo Comprido, Curitiba. Exclusividade, segurança e design contemporâneo.',
   keywords: 'casa alto padrão curitiba, imóvel de luxo curitiba, condomínio valencia, campo comprido, casa com piscina, 4 suítes curitiba, mhfahd imobiliária',
