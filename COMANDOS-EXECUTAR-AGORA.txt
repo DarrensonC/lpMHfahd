@@ -1,0 +1,56 @@
+==============================================
+COMANDOS PARA EXECUTAR NO POWERSHELL
+==============================================
+
+ATENÇÃO: Substitua "SEU-USUARIO" pelo seu username do GitHub!
+
+Exemplo: se seu GitHub é github.com/joaosilva
+Use: git remote add origin https://github.com/joaosilva/lp-mh-fahd.git
+
+==============================================
+
+1. Verificar se está na pasta correta:
+   
+   cd "I:\Lp MH Fahd"
+
+
+2. Conectar com o repositório GitHub (SUBSTITUA SEU-USUARIO):
+   
+   git remote add origin https://github.com/SEU-USUARIO/lp-mh-fahd.git
+
+
+3. Enviar o código para o GitHub:
+   
+   git push -u origin main
+
+
+==============================================
+POSSÍVEIS PROBLEMAS:
+==============================================
+
+❌ Se aparecer erro: "remote origin already exists"
+   Solução: git remote remove origin
+   Depois execute o comando 2 novamente
+
+❌ Se pedir Username e Password:
+   - Username: seu username do GitHub
+   - Password: use um Personal Access Token (não a senha normal)
+   
+   Como criar Token:
+   https://github.com/settings/tokens
+   → Generate new token (classic)
+   → Marque "repo"
+   → Generate token
+   → Copie e use como password
+
+==============================================
+DEPOIS QUE DER SUCESSO:
+==============================================
+
+Você verá algo como:
+"Branch 'main' set up to track remote branch 'main' from 'origin'."
+
+Aí você pode ir para o PASSO 3!
+
+==============================================
+
