@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useState, FormEvent } from 'react'
-import InputMask from 'react-input-mask'
+import { PatternFormat } from 'react-number-format'
 import { 
   Home, Bed, Maximize, Waves, UtensilsCrossed, Shield,
   Sparkles, LayoutGrid, Check, Star, 
@@ -646,23 +646,17 @@ export default function PropertyPageClient({ data }: PropertyPageClientProps) {
                   <label htmlFor="phone" className="block text-gray-700 font-semibold mb-2">
                     Telefone (WhatsApp) *
                   </label>
-                  <InputMask
-                    mask="(99) 99999-9999"
+                  <PatternFormat
+                    format="(##) #####-####"
+                    mask="_"
                     value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  >
-                    {/* @ts-ignore */}
-                    {(inputProps: any) => (
-                      <input
-                        {...inputProps}
-                        type="tel"
-                        id="phone"
-                        required
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
-                        placeholder="(00) 00000-0000"
-                      />
-                    )}
-                  </InputMask>
+                    onValueChange={(values) => setFormData({ ...formData, phone: values.value })}
+                    type="tel"
+                    id="phone"
+                    required
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
+                    placeholder="(00) 00000-0000"
+                  />
                 </div>
 
                 {/* Melhor horário */}
