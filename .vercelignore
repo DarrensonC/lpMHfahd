@@ -1,6 +1,6 @@
-# Arquivos de documentação (não precisa fazer deploy deles)
+# Arquivos de documentação
 *.md
-!README.md
+*.txt
 
 # Scripts de setup
 criar-pastas.bat
@@ -9,4 +9,14 @@ criar-pastas.sh
 # Arquivos temporários
 .DS_Store
 *.log
+
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+
+# Vercel
+.vercel
 

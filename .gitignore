@@ -35,3 +35,32 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# documentation files (many md files causing issues)
+*.md
+!README.md
+*.txt
+AJUSTAR-*.md
+ANALISE-*.md
+ARQUIVOS-*.txt
+ATUALIZACAO-*.md
+CHECKLIST-*.md
+COMANDOS-*.md
+COMO-*.md
+COPY-*.md
+DEPLOY-*.md
+ESTRUTURA-*.md
+FOTOS-*.md
+GUIA-*.md
+IMAGENS-*.md
+INICIO-*.md
+INSTRUCOES-*.md
+LEIA-*.md
+MOBILE-*.md
+ONDE-*.md
+OTIMIZACOES-*.md
+PERSONALIZACAO-*.md
+PROXIMOS-*.md
+RELATORIO-*.md
+RESUMO-*.md
+SISTEMA-*.md
+
