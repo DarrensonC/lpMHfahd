@@ -3,6 +3,13 @@
 import { useState, FormEvent } from 'react'
 import InputMask from 'react-input-mask'
 
+// Declaração de tipo para o Meta Pixel
+declare global {
+  interface Window {
+    fbq?: (action: string, eventName: string) => void;
+  }
+}
+
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -17,6 +24,11 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
+    
+    // Dispara evento do Meta Pixel
+    if (typeof window.fbq === "function") {
+      window.fbq("trackCustom", "Agendar_Visita_Valencia");
+    }
     
     // Validações
     if (!formData.name.trim()) {
